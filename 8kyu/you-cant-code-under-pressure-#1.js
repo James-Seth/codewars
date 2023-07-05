@@ -8,6 +8,6 @@ function doubleInteger(i) {
     return i * 2;
   }
   doubleInteger(2)
-  https://github.com/James-Seth/codewars.git
+  C
 //Other Solutions:
 const doubleInteger = i => 2 * i;
