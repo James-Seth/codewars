@@ -15,3 +15,6 @@ function distinct(a) {
   }
 
 //Other solutions:
+function distinct(a) {
+    return [...new Set(a)];
+  }
