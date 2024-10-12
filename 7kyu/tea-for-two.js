@@ -9,3 +9,7 @@ function tea42(input){
 function tea42(input){
     return String(input).replace(/2/g, 't')
 }
+
+//Another one:
+const tea42 = input =>
+    `${input}`.replace(/2/g, `t`);
