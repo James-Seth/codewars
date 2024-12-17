@@ -4,36 +4,21 @@
 // Counter.Value must have manually defined getter/setter methods, according to our company's style guide.
 
 //My Solution:
-public class Counter
-{
-  private int _Value;
-  public int Value
-  {
-    get
-    {
-      return _Value;
-    }
-    private set
-    {
-      _Value = value;
-    }
-  }
-  
-  public Counter()
-  {
-    Value = 0;
-  }
-  
-  public void Increase()
-  {
-    Value++;
-  }
-  
-  public void Reset()
-  {
-    Value = 0;
-  }
+function Counter() {
+  this.value = 0;
 }
+
+Counter.prototype.increase = function() {
+  this.value++;
+};
+
+Counter.prototype.getValue = function() {
+  return this.value;
+};
+
+Counter.prototype.reset = function() {
+  this.value = 0;
+};
 
 //Other solutions:
 public class Counter
