@@ -13,7 +13,7 @@
 
 // Good luck! Your team knows they can count on you!
 
-//My Solution:
+//Solution:
 function formatMoney(amount) {
     return '$' + amount.toFixed(2)
 }

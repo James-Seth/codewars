@@ -13,3 +13,7 @@ function oddCount(n){
   }
 
 //Other solutions:
+function oddCount(n){
+    let odd = Math.round((n - 1) / 2);
+    return odd;
+  }
