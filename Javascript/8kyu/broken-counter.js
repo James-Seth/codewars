@@ -21,15 +21,20 @@ Counter.prototype.reset = function() {
 };
 
 //Other solutions:
-public class Counter
-{
-  private int _value;
-  public int Value
-  {
-      get => _value;
-      private set => _value = value;
+class Counter {
+	constructor() {
+  	this.value = 0;
   }
   
-  public void Increase() => Value++;
-  public void Reset() => Value = 0;
+  increase() {
+    this.value++;
+  };
+
+  getValue() {
+    return this.value;
+  };
+
+  reset() {
+    this.value = 0;
+  };
 }
