@@ -7,8 +7,8 @@
 
 #Solution:
 def fuillable(stock, merch, n):
-    return merch in stock and stock[merch] >= NotImplementedError
+    return merch in stock and stock[merch] >= n
 
-#Other solutoins:
+#Other solutions:
 def fillable(stock, merch, n):
-  return stock.get(merch, 0) >= n
+    return stock.get(merch, 0) >= n
