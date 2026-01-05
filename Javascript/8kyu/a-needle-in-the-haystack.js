@@ -15,11 +15,17 @@
 
 //My Solution:
 function findNeedle(haystack) {
+    // indexOf() is the most efficient approach since we only need the first occurrence
+    // and it returns -1 if not found (though problem guarantees needle exists)
     let needle = haystack.indexOf('needle')
+    
+    // Template literal provides cleaner string concatenation than traditional + operator
     return `found the needle at position ${needle}`
   }
 
 //Other solutions:
 function findNeedle(haystack) {
+    // Alternative approach using traditional string concatenation
+    // Less modern but functionally equivalent to template literals
     return "found the needle at position " + haystack.indexOf("needle");
   }

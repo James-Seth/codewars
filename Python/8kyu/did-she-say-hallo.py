@@ -19,6 +19,21 @@
 #     to keep this a beginner exercise you don't need to check if the greeting is a subset of word (Hallowen can pass the test)
 #     function should be case insensitive to pass the tests
 
+def validate_hello(greetings):
+    hello =['hello', 'ciao', 'salut', 'hallo', 'hola', 'ahoj', 'czesc']
+
+    for i in hello:
+        if i in greetings.lower():
+            return True
+    return False
+
+    for i in hello:
+        if i in greetings.lower():
+            return True
+
+
+
+
 #Solution:
 def validate_hello(greetings):
     hello = ['hello', 'ciao', 'salut', 'hallo', 'hola', 'ahoj', 'czesc']
