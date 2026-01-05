@@ -9,11 +9,11 @@
 #Solution:
 def solution(s):
      string = ''
-     for l in s:
-          if l != l.upper():
-               string += l
-          if l == l.upper():
-               string += " " + l
+     for letter in s:
+          if letter != letter.upper():
+               string += letter
+          if letter == letter.upper():
+               string += " " + letter
           return string 
           
 #Other solutions:

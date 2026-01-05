@@ -17,3 +17,4 @@ def vaporcode(s):
 #Other solutions:
 def vaporcode(s):
     return "  ".join(s.replace(" ", "").upper())
+

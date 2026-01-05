@@ -39,4 +39,3 @@ def mango(quantity, price):
 def mango(quantity, price):
     return (quantity - quantity // 3) * price
 
-#Another:
