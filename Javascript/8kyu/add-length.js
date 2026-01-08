@@ -16,6 +16,7 @@ function addLength(str) {
   }
 
 //Other solutions:
+// Splits a string into words and returns an array with each word followed by its length
 function addLength(str){
     return str.split(" ").map(s => `${s} ${s.length}`)
   }

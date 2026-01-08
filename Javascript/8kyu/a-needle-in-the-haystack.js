@@ -19,7 +19,7 @@ function findNeedle(haystack) {
     // and it returns -1 if not found (though problem guarantees needle exists)
     let needle = haystack.indexOf('needle')
     
-    // Template literal provides cleaner string concatenation than traditional + operator
+    // Template literal provides cleaner string concatenation than traditional '+' operator
     return `found the needle at position ${needle}`
   }
 
