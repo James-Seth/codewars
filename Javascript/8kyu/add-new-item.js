@@ -8,13 +8,17 @@
 // P.S. You have to create a new list and add a new item to that. (This Kata is originally designed for C# language and it shows that adding a new item to the input list is not going to work, even though the parameter is passed by value, but the value is poining to the reference of list and any change on parameter will be seen by caller)
 
 //My Solution:
+function 
 function addExtra( listOfNumbers ){
     return listOfNumbers.concat('n')
   }
 
 //Other solutions:
+/**
+ * Returns a new array containing all elements of the input array with one additional item appended.
+ * The appended item in this case is the integer 13.
+ * This function does not modify the original array.
+ */
 function addExtra( listOfNumbers ){
-    // your code here
-    // add an int to listOfNumbers and return it
-    return [...listOfNumbers, 13];
+  return [...listOfNumbers, 13];
 }
