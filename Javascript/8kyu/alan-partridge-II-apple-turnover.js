@@ -18,6 +18,10 @@
 // Note: Input will either be a positive integer (or a string for untyped languages).
 
 //My Solution:
+/**
+ * Returns a themed string based on the result.
+ * Input may be a number or a string representing a number.
+ */
 function apple(x){
     return x ** 2 > 1000? "It's hotter than the sun!!": "Help yourself to a honeycomb Yorkie for the glovebox."
   }
