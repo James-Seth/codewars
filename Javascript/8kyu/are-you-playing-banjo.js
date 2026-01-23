@@ -10,7 +10,7 @@
 // Names given are always valid strings.
 
 //Notes:
-// Logic: If the name starts with 'R' or 'r', return that the person plays banjo; otherwise, return that they do not.
+// If the name starts with 'R' or 'r', return that the person plays banjo; otherwise, return that they do not.
 
 //My Solution:
 function areYouPlayingBanjo(name) {

@@ -13,11 +13,9 @@
 
 // Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
-//Notes:
-// Logic: Return true if there is at least one arrow that is not damaged (including new arrows).
-
 //Solution:
 function anyArrows(arrows){
+    // Return true if there is at least one arrow that is not damaged (including new arrows).
     return arrows.some(arrow => !arrow.damaged)
 }
 
