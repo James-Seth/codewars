@@ -8,18 +8,13 @@ function odds(values) {
   return values.filter(x => x % 2 != 0)
 }
 
-
-
-
-
-
 //My Solution:
 /**
  * Returns a new array containing only the odd numbers from the input array.
  * The original array is not modified.
  */
 function odds(values){
-    return values.filter( x => x % 2);
+    return values.filter( x => x % 2 !== 0);
   }
 
 //Other solutions:

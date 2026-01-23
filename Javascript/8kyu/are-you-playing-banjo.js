@@ -9,10 +9,13 @@
 
 // Names given are always valid strings.
 
+//Notes:
+// Logic: If the name starts with 'R' or 'r', return that the person plays banjo; otherwise, return that they do not.
+
 //My Solution:
 function areYouPlayingBanjo(name) {
-    return name + (name[0].toLowerCase() == 'r' ? ' plays' : ' does not play') + " banjo";
-  }
+  return name + (name[0].toLowerCase() == 'r' ? ' plays' : ' does not play') + " banjo";
+}
 
 //Other Solutions:
 function areYouPlayingBanjo(name) {
